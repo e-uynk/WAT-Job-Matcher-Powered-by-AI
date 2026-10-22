@@ -61,15 +61,15 @@ The system evaluates each document, calculates match scores out of 10, categoriz
 * Ollama running locally with the `qwen2.5:3b` model (`ollama run qwen2.5:3b`)
 
 ### Running the Backend
-```bash
 cd src/WatJobMatcher.Api
 dotnet run
 (The API will start listening on http://localhost:5012)
 
-```bash
+### Running the Frontend
 cd frontend
 npm install
 npm run dev
+(The UI will run on http://localhost:3000)
 
 📄 License
 This project is open-source and available under the MIT License.
