@@ -64,6 +64,8 @@ The system evaluates each document, calculates match scores out of 10, categoriz
 ### Running the Backend
 
 cd src/WatJobMatcher.Api
+
+
 dotnet run
 
 *(The API will start listening on http://localhost:5012)*
@@ -71,7 +73,11 @@ dotnet run
 ### Running the Frontend
 
 cd frontend
+
+
 npm install
+
+
 npm run dev
 
 *(The UI will run on http://localhost:3000)*
