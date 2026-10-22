@@ -66,12 +66,10 @@ cd src/WatJobMatcher.Api
 dotnet run
 (The API will start listening on http://localhost:5012)
 
-### Running the Frontend
-Bash
+```bash
 cd frontend
 npm install
 npm run dev
-(The UI will run on http://localhost:3000)
 
 📄 License
 This project is open-source and available under the MIT License.
