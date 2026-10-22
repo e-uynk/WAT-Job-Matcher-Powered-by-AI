@@ -1,0 +1,6 @@
+@WatJobMatcher.Api_HostAddress = http://localhost:5012
+
+GET {{WatJobMatcher.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
